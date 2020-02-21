@@ -1,0 +1,10 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "tslint.autoFixOnSave": true,
+  "tslint.enable": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}

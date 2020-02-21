@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "strict": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "paths": {
+      "@app/*": ["./src/*"]
+    },
+    "types": [
+      "typeorm",
+      "node",
+      "jest",
+      "class-transformer",
+      "class-validator",
+      "@nestjs/jwt",
+      "@nestjs/passport",
+      "rxjs/operators",
+      "passport-jwt"
+    ]
+  },
+  "exclude": ["node_modules", "dist"]
+}
